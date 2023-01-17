@@ -15,5 +15,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "prefer-stable": true,
+    "require": {
+        "illuminate/http": "^8.0 || ^9.0 || ^10.0",
+        "psr/http-client": "^1.0"
+    },
+    "config": {
+        "sort-packages": true,
+        "preferred-install": "dist"
+    }
 }
