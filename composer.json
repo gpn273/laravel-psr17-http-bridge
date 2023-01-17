@@ -1,0 +1,19 @@
+{
+    "name": "gpn273/laravel-psr18-http-bridge",
+    "description": "Laravel PSR-18 HTTP Client Bridge",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gpn273\\LaravelPsr18HttpBridge\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Graham Newton",
+            "email": "gpn273@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
